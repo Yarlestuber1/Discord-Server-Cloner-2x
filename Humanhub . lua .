@@ -1,0 +1,115 @@
+-- Human Hub Script - Completo
+
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+
+-- Função para auto farm de níveis
+local function autoFarmLevel()
+    while true do
+        -- Código para encontrar e atacar inimigos para ganhar experiência
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto farm de frutas
+local function autoFarmFruit()
+    while true do
+        -- Código para encontrar e coletar frutas
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto farm de espadas
+local function autoFarmSwords()
+    while true do
+        -- Código para encontrar e usar espadas
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto roleta de raça
+local function autoRaceRoulette()
+    while true do
+        -- Código para girar a roleta de raça automaticamente
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto farm de God Human
+local function autoGodHuman()
+    while true do
+        -- Código para treinar e usar God Human
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto farm de Super Human
+local function autoSuperHuman()
+    while true do
+        -- Código para treinar e usar Super Human
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto farm de Deep Step
+local function autoDeepStep()
+    while true do
+        -- Código para treinar e usar Deep Step
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto farm de Karate Tubarão
+local function autoSharkmanKarate()
+    while true do
+        -- Código para treinar e usar Karate Tubarão
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto farm de Garra Elétrica
+local function autoElectricClaw()
+    while true do
+        -- Código para treinar e usar Garra Elétrica
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto farm de Garra Dragão
+local function autoDragonTalon()
+    while true do
+        -- Código para treinar e usar Garra Dragão
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto farm de Estilo de Luta de Fogo V1
+local function autoFireStyleV1()
+    while true do
+        -- Código para treinar e usar Estilo de Luta de Fogo V1
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Função para auto farm de Estilo de Luta Relâmpago V1
+local function autoLightningStyleV1()
+    while true do
+        -- Código para treinar e usar Estilo de Luta Relâmpago V1
+        wait(1) -- Ajuste o tempo conforme necessário
+    end
+end
+
+-- Iniciar todas as funções de auto farm e auto roleta
+spawn(autoFarmLevel)
+spawn(autoFarmFruit)
+spawn(autoFarmSwords)
+spawn(autoRaceRoulette)
+spawn(autoGodHuman)
+spawn(autoSuperHuman)
+spawn(autoDeepStep)
+spawn(autoSharkmanKarate)
+spawn(autoElectricClaw)
+spawn(autoDragonTalon)
+spawn(autoFireStyleV1)
+spawn(autoLightningStyleV1)
